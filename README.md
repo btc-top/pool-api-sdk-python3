@@ -1,22 +1,24 @@
 pool open api sdk
 =====================
 
-## 安装
-1. 首先下载sdk目录包:
+## setup
+
+1. download sdk code package:
 ```shell script
 git clone https://github.com/btc-top/pool-api-sdk-python3.git
 ```
-2. 进入目录:
+2. enter directory:
 ```shell script
 cd pool-api-sdk-python3
 ```
-3. 运行安装命令:
+3. setup package:
 ```shell script
 python setup.py install
 ```
 
-## 使用
-示例代码:
+## usage
+
+example code:
 ```python
 
 from btc_top_pool_api_sdk import Client
