@@ -26,9 +26,10 @@ test_requirements = [
 
 setup(
     name='btc_top_pool_api_sdk',
-    version='1.0.0',
+    version='1.0.2',
     description="Pool OpenAPI SDK.",
     long_description=readme + '\n\n' + history,
+    long_description_content_type="text/markdown",
     author="Mars Yuan",
     author_email='marshalys@gmail.com',
     url='https://github.com/btc-top/pool-api-doc',
@@ -43,10 +44,7 @@ setup(
     zip_safe=False,
     keywords='pool-api-sdk',
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
-        'Intended Audience :: Developers',
-        'Natural Language :: English',
-        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3',
     ],
     test_suite='tests',
     tests_require=test_requirements

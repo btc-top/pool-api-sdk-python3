@@ -3,17 +3,8 @@ pool open api sdk
 
 ## setup
 
-1. download sdk code package:
 ```shell script
-git clone https://github.com/btc-top/pool-api-sdk-python3.git
-```
-2. enter directory:
-```shell script
-cd pool-api-sdk-python3
-```
-3. setup package:
-```shell script
-python setup.py install
+pip install btc-top-pool-api-sdk
 ```
 
 ## usage
